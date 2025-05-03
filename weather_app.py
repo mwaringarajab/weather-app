@@ -17,8 +17,7 @@ class WeatherApp:
         self.root.configure(bg="#f0f0f0")
         
         # API key for OpenWeatherMap
-        # In a real application, you should store this securely
-        # or use environment variables (os.environ.get('API_KEY'))
+
         self.api_key = "be863505946cf6524ea53cf88df0c548" 
         
         # Add predefined cities for easier access
@@ -26,10 +25,10 @@ class WeatherApp:
                                   "Berlin", "Dubai", "Moscow", "Rio de Janeiro", "Cairo"]
         
         # Sample API key usage message
-        if self.api_key == "YOUR_API_KEY":
+        if self.api_key == "be863505946cf6524ea53cf88df0c548":
             tk.Label(
                 self.root, 
-                text="Note: Replace 'YOUR_API_KEY' with an actual OpenWeatherMap API key for live data", 
+                text="Note: 
                 fg="red",
                 bg="#f0f0f0",
                 font=("Arial", 8)
